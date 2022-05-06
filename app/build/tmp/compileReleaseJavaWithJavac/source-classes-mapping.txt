@@ -1,0 +1,8 @@
+app/vercel/calculator_liart_ten/twa/Application.java
+ app.vercel.calculator_liart_ten.twa.Application
+app/vercel/calculator_liart_ten/twa/DelegationService.java
+ app.vercel.calculator_liart_ten.twa.DelegationService
+app/vercel/calculator_liart_ten/twa/LauncherActivity.java
+ app.vercel.calculator_liart_ten.twa.LauncherActivity
+app/vercel/calculator_liart_ten/twa/BuildConfig.java
+ app.vercel.calculator_liart_ten.twa.BuildConfig
