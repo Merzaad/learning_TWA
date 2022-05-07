@@ -1,4 +1,0 @@
-#Fri May 06 09:39:11 IRDT 2022
-base.0=D\:\\Projects\\PWA\\learning_twa\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
