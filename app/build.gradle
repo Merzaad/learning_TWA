@@ -21,11 +21,11 @@ plugins {
 }
 
 def twaManifest = [
-    applicationId: 'app.vercel.calculator_liart_ten.twa',
-    hostName: 'calculator-liart-ten.vercel.app', // The domain being opened in the TWA.
+    applicationId: 'app.vercel.mculator.twa',
+    hostName: 'mculator.vercel.app', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
-    name: 'Calculator', // The application name.
-    launcherName: 'Calculator', // The name shown on the Android Launcher.
+    name: 'Mculator', // The application name.
+    launcherName: 'Mculate', // The name shown on the Android Launcher.
     themeColor: '#000000', // The color used for the status bar.
     navigationColor: '#000000', // The color used for the navigation bar.
     navigationColorDark: '#000000', // The color used for the dark navbar.
@@ -46,13 +46,13 @@ def twaManifest = [
     // 'customtabs' and 'webview'.
     fallbackType: 'customtabs',
     enableSiteSettingsShortcut: 'true',
-    orientation: 'default',
+    orientation: 'portrait-primary',
 ]
 
 android {
     compileSdkVersion 31
     defaultConfig {
-        applicationId "app.vercel.calculator_liart_ten.twa"
+        applicationId "app.vercel.mculator.twa"
         minSdkVersion 19
         targetSdkVersion 31
         versionCode 1
@@ -72,7 +72,7 @@ android {
             // The URL the Web Manifest for the Progressive Web App that the TWA points to. This
             // is used by Chrome OS to open the Web version of the PWA instead of the TWA, as it
             // will probably give a better user experience for non-mobile devices.
-            resValue "string", "webManifestUrl", 'https://calculator-liart-ten.vercel.app/manifest.json'
+            resValue "string", "webManifestUrl", 'https://mculator.vercel.app/manifest.json'
         
 
         
