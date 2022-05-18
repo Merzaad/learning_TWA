@@ -2,7 +2,7 @@
   "packageId": "app.vercel.mculator.twa",
   "host": "mculator.vercel.app",
   "name": "Mculator",
-  "launcherName": "Mculate",
+  "launcherName": "Mcul",
   "display": "standalone",
   "themeColor": "#000000",
   "navigationColor": "#000000",
